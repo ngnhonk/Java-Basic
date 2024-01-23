@@ -54,7 +54,8 @@ Sau khi nhập đúng tài khoản, mật khẩu và nhấn Login, giao diện L
 
 
 >Thanh công cụ tìm kiếm ở phía trên cùng:
->![Uploading image.png…]()
+>![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/819fad4a-5d80-4b32-9911-33692d7f428c)
+
 
 
 *Do đây là phiên bản `Beta` nên chưa được chỉn chu và còn nhiều thiếu sót, mong được sự thông cảm của cô và các bạn.
