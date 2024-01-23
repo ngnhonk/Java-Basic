@@ -14,8 +14,7 @@ Lớp tín chỉ: Lập trình hướng đối tượng-1-2-23(N03).
 
 Toàn bộ chương trình được chứa trong trong thư mục "src".
 
->![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/a79f8ac9-95d3-4bcd-8ff0-bc340628c0df)
-
+>![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/2cb4cbe1-e32c-4408-bc3e-ca72a29ff596)
 
 
 - File khởi động: ***App.java***
@@ -23,15 +22,22 @@ Toàn bộ chương trình được chứa trong trong thư mục "src".
 
 ## Hướng dẫn sử dụng chương trình
 ### Khởi động
-Sau khi chạy file ***App.java***, chương trình sẽ mở giao diện Login.
+Sau khi chạy file ***App.java***, chương trình sẽ mở giao diện Login:
 
+>![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/6c401d51-14a7-4f86-b9ef-4551fc1ab312)
 
 >Do chưa phát triển tính năng `Đăng ký`, nên để có thể sửa và thêm tài khoản, vui lòng truy cập `UserDAO.java` tại package `model` và thêm nội dung `ls.add(new User("user", "pass", true));` tại hàm UserDao() để chỉnh sửa, với "user" là tên đăng nhập và "pass" là mật khẩu.
 
-### Đăng nhập thành công
-Sau khi nhập đúng tài khoản, mật khẩu và nhấn Login, giao diện Login sẽ đóng lại và chương trình tự động mở giao diện quản lý và từ đây có thể truy cập giao diện bán hàng.
 
->Khi mở giao diện quản lý bán hàng, tại đây sau khi nhập thông tin về mặt hàng cần thêm vào và bấm "Lưu" thì hệ thống sẽ ghi nhận dữ liệu, ghi vào file SanPhamxml.xml và in ra tại bảng thống kê bên dưới về thông tin sản phẩm vừa nhập.
+### Đăng nhập thành công
+Sau khi nhập đúng tài khoản, mật khẩu và nhấn Login, giao diện Login sẽ đóng lại và chương trình tự động mở giao diện quản lý và từ đây có thể truy cập giao diện bán hàng:
+
+>![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/12fe7ced-c4e8-4745-a5a2-b84132727928)
+
+>Khi mở giao diện quản lý bán hàng, tại đây sau khi nhập thông tin về mặt hàng cần thêm vào và bấm "Lưu" thì hệ thống sẽ ghi nhận dữ liệu, ghi vào file SanPhamxml.xml và in ra tại bảng thống kê bên dưới về thông tin sản phẩm vừa nhập:
+
+>![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/f039ca4a-f554-4996-ae67-3692ca1ca4a0)
+
 
 >Nút `Lưu` dùng để lưu dữ liệu vào database:
 >![image](https://github.com/ngnhonk/Java-Basic/assets/121851963/00e04234-1a88-47f4-ab84-34a94e327068)
